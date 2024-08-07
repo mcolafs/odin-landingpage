@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Roboto;
+    box-sizing: border-box;
+   
+    
+}
+
+.section-one {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;   
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 60px 20px 60px;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #E5E7EB;
+    
+}
+.header-logo {
+    display: flex;
+   
+    justify-content:space-between;
+    gap: 10px;
+}
+.icon {
+    height: 24px;
+    width: auto;
+    background-color: white;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+    margin-top: 40px;
+    
+}
+
+.hero-text {
+    flex-shrink: 4;
+    padding: 20px;
+    font-size: 18px;
+    max-width: 600px;
+    
+}
+
+.top-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+.runningmain {
+    height: 300px;
+    width: auto;
+    
+    flex-shrink: 0;
+}
+.button-one {
+    background-color: #3882f6;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 25px;
+    font-size: 16px;    
+}
+ 
+.section-two {
+    display: flex;  
+    flex-direction: column;
+    
+}
+.header-two {
+    text-align: center;
+    color: #1f2937;
+    padding: 30px;
+    font-size: 44px;
+    
+    
+}
+.image-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 25px
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.images {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7Eb;
+}
+
+.quote {
+    margin: 100px 75px 10px 75px;
+    font-style: italic;
+    font-size: 36px;
+    text-align: center;
+}
+
+.gandhi {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-four {
+    padding: 75px;
+    
+}
+.call {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    padding: 75px;
+    border-radius: 20px;
+    max-width: 700px;
+    margin: auto;
+    
+}
+.left-part {
+    display: flex;
+    flex-direction: column;
+    
+}
+.right-part {
+    display: inline-flex;
+    
+
+    
+}
+
+.subheader {
+    font-size: 24px;
+    font-weight:900;
+    margin: 0;
+}
+.button-two {
+    background-color: #3882f6;
+    
+    color: white; 
+    flex-shrink: 0;
+
+    border-radius: 5px;
+    font-size: 16px; 
+    border: solid white 1px;
+    
+
+}
