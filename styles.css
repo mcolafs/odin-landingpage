@@ -1,13 +1,10 @@
 body {
     margin: 0;
     font-family: Roboto;
-    box-sizing: border-box;
-   
-    
+    box-sizing: border-box;       
 }
 
 .section-one {
-    
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
@@ -16,16 +13,15 @@ body {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
-    padding: 20px 60px 20px 60px;
-    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+    justify-content: center;
+    gap: 700px;
     font-size: 24px;
-    color: #E5E7EB;
+    color: #E5E7EB;      
     
 }
 .header-logo {
     display: flex;
-   
     justify-content:space-between;
     gap: 10px;
 }
@@ -40,13 +36,14 @@ a {
     text-decoration: none;
     padding: 10px;
     font-size: 18px;
+    
 }
 .hero {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 300px;
     padding: 60px;
     margin-top: 40px;
-    
 }
 
 .hero-text {
@@ -65,8 +62,7 @@ a {
 .runningmain {
     height: 300px;
     width: auto;
-    
-    flex-shrink: 0;
+    flex-shrink: 4;
 }
 .button-one {
     background-color: #3882f6;
@@ -138,7 +134,7 @@ a {
 .call {
     display: flex;
     gap: 20px;
-    align-items: center;
+    align-items: space-between;
     background-color: #3882f6;
     color: white;
     padding: 75px;
@@ -151,12 +147,14 @@ a {
     display: flex;
     flex-direction: column;
     
-}
-.right-part {
-    display: inline-flex;
-    
 
-    
+}
+
+.right-part {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+      
 }
 
 .subheader {
@@ -166,13 +164,22 @@ a {
 }
 .button-two {
     background-color: #3882f6;
-    
     color: white; 
     flex-shrink: 0;
-
     border-radius: 5px;
     font-size: 16px; 
     border: solid white 1px;
+    padding: 12px;
     
+}
+
+.section-five {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
 
 }
